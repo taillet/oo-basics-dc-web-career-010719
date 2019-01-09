@@ -5,15 +5,17 @@ class Shoe
   attr_accessor :color, :size, :material
   attr_reader :brand, :condition
   
-  def initialize(brand, condition)
+  def initialize(brand)
     @brand = brand
-    @condition = condition
   end
     
   def brand
     @brand
   end
   
+    def initialize(condition)
+    @condition = condition
+  end
     def condition
     @condition
   end
