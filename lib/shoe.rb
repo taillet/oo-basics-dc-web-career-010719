@@ -13,7 +13,7 @@ class Shoe
     @brand
   end
   
-  def turn_page
+  def cobble
   end
 end
 
