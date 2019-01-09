@@ -18,7 +18,7 @@ class Shoe
   end
     
   def condition
-    @brand
+    @condition
   end
   
   def cobble
