@@ -13,14 +13,6 @@ class Shoe
     @brand
   end
   
-    def initialize(condition)
-    @condition = condition
-  end
-    
-  def brand
-    @brand
-  end
-  
   def condition=(condition)
     @condition = condition
   end
